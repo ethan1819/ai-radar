@@ -1,0 +1,3 @@
+﻿import type { Config } from 'tailwindcss';
+const config: Config = { content: ['./app/**/*.{ts,tsx,mdx}','./components/**/*.{ts,tsx}','./content/**/*.{md,mdx}'], theme: { extend: { fontFamily: { sans: ['var(--font-inter)','system-ui','sans-serif'], mono: ['ui-monospace','monospace'] }, colors: { bg: { DEFAULT:'#0a0a0f', elevated:'#13131a', card:'#15151c' }, border: { subtle:'#1f1f2a', DEFAULT:'#2a2a36', strong:'#3a3a48' }, text: { primary:'#f4f4f5', muted:'#a1a1aa', subtle:'#71717a' }, accent: { DEFAULT:'#818cf8', strong:'#6366f1', soft:'rgba(129,140,248,0.12)' }, green:'#10b981', yellow:'#f59e0b', red:'#ef4444' }, borderRadius: { DEFAULT:'8px', lg:'12px', xl:'16px' } } }, plugins: [] };
+export default config;
