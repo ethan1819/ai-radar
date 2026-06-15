@@ -1,0 +1,28 @@
+﻿name: 每日自动更新
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天早上 8 点 (北京时间)
+  workflow_dispatch:       # 也可以手动触发
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 执行每日更新
+        run: node scripts/daily-publish.cjs
+
+      - name: 提交并推送
+        run: |
+          git config --local user.name "AI Radar Bot"
+          git config --local user.email "bot@ai-radar.app"
+          git add -A
+          git diff --cached --quiet || git commit -m "每日更新 $(date +%Y-%m-%d)"
+          git push

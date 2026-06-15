@@ -1,0 +1,58 @@
+﻿[
+  {
+    "title": "SuperAgent vs Codex：两大 AI 编程 Agent 谁更强？",
+    "excerpt": "对比 SuperAgent 和 Codex Desktop 在编程场景中的表现",
+    "category": "codex",
+    "tags": ["SuperAgent","Codex","对比","AI编程"],
+    "replyCount": 0,
+    "body": "最近 SuperAgent 很火,和 Codex Desktop 对比一下。\n\n**代码生成**: Codex 更精准,SuperAgent 更自主。\n**上下文理解**: Codex 深度理解项目结构,SuperAgent 擅长跨项目。\n**工具生态**: Codex MCP 协议扩展性强,SuperAgent 内置工具多。\n\n你用哪个?来聊聊。"
+  },
+  {
+    "title": "本地 LLM 微调指南：让 Agent 更懂你的业务",
+    "excerpt": "如何微调开源模型让 Agent 工具的表现更符合你的特定需求",
+    "category": "general",
+    "tags": ["LLM","微调","本地AI","Agent"],
+    "replyCount": 0,
+    "body": "Agent 工具的效果很大程度取决于底层模型。\n\n**LoRA 微调**: 消费级 GPU 也能做,成本低效果明显。\n\n**数据集准备**: 收集 Agent 对话数据,标注推理过程。\n\n**部署方案**: 用 Ollama 或 vLLM 部署微调后的模型。\n\n大家有做模型微调的经验吗?分享一下。"
+  },
+  {
+    "title": "Agent 工作流设计的最佳实践",
+    "excerpt": "从实际项目中总结的 Agent 工作流设计原则和模式",
+    "category": "share",
+    "tags": ["工作流","最佳实践","设计模式"],
+    "replyCount": 0,
+    "body": "做了几个月 Agent 项目,总结几条经验:\n\n**1. 任务分解**: 复杂任务拆成小步骤,每一步独立验证。\n\n**2. 错误处理**: Agent 一定会出错,做好重试和回退机制。\n\n**3. 人工介入**: 关键决策点设置人工审核。\n\n**4. 日志审计**: 记录 Agent 每一步操作便于排查。\n\n大家还有哪些好的实践?来补充。"
+  },
+  {
+    "title": "用 AI Agent 搭建个人知识助手全流程",
+    "excerpt": "从数据收集到智能问答,手把手教你搭建个人 AI 知识库",
+    "category": "agent",
+    "tags": ["知识助手","Agent","RAG","教程"],
+    "replyCount": 0,
+    "body": "分享我用 Agent 工具搭建个人知识助手的流程:\n\n**数据收集**: 用 Agent 自动爬取和整理资料。\n\n**知识库**: 用 RAG 方案存储和检索。\n\n**问答接口**: 通过 MCP 协议暴露给 Codex 或 Claude。\n\n整个流程全自动化,每天更新。\n\n你们也搭过类似的东西吗?"
+  },
+  {
+    "title": "MCP 协议深度解析：如何编写自定义 MCP Server",
+    "excerpt": "MCP 是 Agent 生态的核心协议,手把手教你写一个 MCP Server",
+    "category": "codex",
+    "tags": ["MCP","协议","教程","开发"],
+    "replyCount": 0,
+    "body": "MCP (Model Context Protocol) 是 Agent 扩展能力的核心。\n\n**基础概念**: MCP Server 提供工具,Client 调用工具。\n\n**快速上手**: 用 Python 或 TypeScript 写一个文件搜索 MCP Server。\n\n**发布分享**: 推送到 GitHub,别人也能用。\n\n我也在写 MCP Server 合集,大家有什么好想法?"
+  },
+  {
+    "title": "AI Agent 使用成本优化指南",
+    "excerpt": "Token 消耗太快？分享几个降低 Agent 使用成本的实用技巧",
+    "category": "general",
+    "tags": ["成本","优化","LLM","技巧"],
+    "replyCount": 0,
+    "body": "Agent 工具虽然强大,但 Token 消耗不容小觑。\n\n**缓存策略**: 相同请求缓存结果,避免重复调用。\n\n**模型选择**: 简单任务用小模型,复杂任务用大模型。\n\n**提示词优化**: 精简 prompt,减少不必要的上下文。\n\n**批量处理**: 合并相似请求,减少 API 调用次数。\n\n这些方法让我把月成本降了 60%。"
+  },
+  {
+    "title": "AI Agent 的未来：2026 下半年趋势预测",
+    "excerpt": "从技术发展、产品形态到商业模式,展望 Agent 的下一步",
+    "category": "agent",
+    "tags": ["趋势","预测","2026","Agent"],
+    "replyCount": 0,
+    "body": "2026 下半年 Agent 领域值得关注的趋势:\n\n**多 Agent 协作**: CrewAI 等框架让多个 Agent 协同工作成为主流。\n\n**Agent 即服务**: Agent 能力通过 API 按需提供。\n\n**端侧 Agent**: Codex Desktop 等让 Agent 在本地运行。\n\n**安全与合规**: Agent 操作的可审计性和安全性成为焦点。\n\n大家怎么看下半年的趋势?来聊聊。"
+  }
+]

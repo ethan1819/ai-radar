@@ -1,0 +1,58 @@
+﻿[
+  {
+    "title": "DeepSeek 发布 R3 模型,推理性能再创新高",
+    "excerpt": "DeepSeek R3 在数学和代码基准上超越 GPT-5",
+    "source": "DeepSeek",
+    "sourceUrl": "https://www.deepseek.com",
+    "category": "model-release",
+    "body": "DeepSeek 发布 R3 系列模型,在 AIME、GPQA 等基准上超越 GPT-5。\n\nR3 采用全新架构,推理效率提升 2 倍,API 价格保持不变。"
+  },
+  {
+    "title": "Anthropic 推出 Claude 企业版,新增审计功能",
+    "excerpt": "企业版 Claude 提供操作日志、访问控制和合规报告",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com",
+    "category": "product-update",
+    "body": "Anthropic 发布 Claude 企业版,支持 SSO、审计日志和精细权限控制。\n\n企业客户可以查看所有员工与 AI 的交互记录,满足合规要求。"
+  },
+  {
+    "title": "OpenAI 开放 GPT-5 API,价格下调 30%",
+    "excerpt": "GPT-5 API 全面开放,价格大幅下调并推出新的 Batch 模式",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com",
+    "category": "product-update",
+    "body": "OpenAI 宣布 GPT-5 API 全面开放,价格下调 30%。\n\n新的 Batch 模式可再省 50% 成本,适合非实时任务。"
+  },
+  {
+    "title": "Cline 发布 2.0 版本,支持多 Agent 协作",
+    "excerpt": "Cline 2.0 引入 Agent 编排引擎,支持多个 Agent 协同工作",
+    "source": "Cline",
+    "sourceUrl": "https://cline.bot",
+    "category": "product-update",
+    "body": "Cline 2.0 发布,最大更新是 Agent 编排引擎。\n\n现在可以在 VS Code 中同时运行多个 Agent,分配不同任务。"
+  },
+  {
+    "title": "Meta 开源 Llama 4 训练代码和数据集",
+    "excerpt": "Meta 开源 Llama 4 的完整训练代码和部分数据集",
+    "source": "Meta AI",
+    "sourceUrl": "https://ai.meta.com",
+    "category": "open-source",
+    "body": "Meta 宣布开源 Llama 4 的完整训练代码和部分数据集。\n\n这是 Meta 首次公开完整训练流程,对社区意义重大。"
+  },
+  {
+    "title": "可灵 AI 2.0 发布,支持 30 秒视频生成",
+    "excerpt": "可灵 AI 2.0 将单次视频生成长度从 10 秒提升到 30 秒",
+    "source": "快手",
+    "sourceUrl": "https://kling.kuaishou.com",
+    "category": "product-update",
+    "body": "可灵 AI 2.0 发布,最长支持 30 秒视频生成。\n\n运动一致性和画质大幅提升,已接近商用标准。"
+  },
+  {
+    "title": "Google 推出 Gemini 2.5 Ultra,上下文 200 万",
+    "excerpt": "Gemini 2.5 Ultra 支持 200 万 token 上下文,创行业纪录",
+    "source": "Google",
+    "sourceUrl": "https://blog.google",
+    "category": "model-release",
+    "body": "Google 发布 Gemini 2.5 Ultra,支持 200 万 token 上下文。\n\n可以一次性处理 15 小时的视频或 30 万行代码。"
+  }
+]
